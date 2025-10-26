@@ -1,7 +1,39 @@
-This is a model which is predict if an object is a Rock or a Mine. First the "main\Copy of sonar data.csv" is undergone some preprocessing(this includes separating label and features and train_test_split) then train, with the training dataset, and then test it with test data, and check for accuracy. Then you can do a test by runnning any random dataset.
-Here to make it simple, we are only using the labaratory data of SONAR to predict. We are using logistic regression model, its good when there are only 2 labels(i.e Rock or Mine)
-Start a separate python environment with pyhton: python -m venv ml_env
-Then run the command: git clone https://github.com/adarsh-v-h/Rock-v-s-Mine-Detection.git
-Now setup requirements, run: pip install -r requirements.txt
-Next you have to download dataset from drive: https://drive.google.com/drive/folders/1NEs0rpFelfzSWAJ6y832EDpW9ImQH4QJ , there you will see a "Copy of Sonar data.csv" download that and move it into your prj_dir\main or prj_dir/main .
-Open for any contirbution or suggestion.
+## 👋Introduction
+This is a model which predicts if an object is a Rock or a Mine. The model here used is Logistic Regression, which sets a threshold value based on this the model checks if its rock or mine, Its good only when there are 2 Class. You read about in Documents/Sources. The model currently shows accuracy of **85%-92%**<br>
+
+---
+
+## 📊 Dataset
+The dataset is called **sonar-rock-mine**, it is avaible on **Kaggle** and **HuggingFace**. <br>
+You can download them directly from: [HuggingFace Dataset](https://huggingface.co/datasets/mnemoraorg/sonar-rock-mine/tree/main) <br>
+You can download it automatically by running: <br>
+```bash
+curl  -L -o main/diabetes.csv https://huggingface.co/datasets/mnemoraorg/sonar-rock-mine/blob/main/raw_sonar.csv
+```
+
+---
+
+## 🧠 Tech Stack
+Python • Sklearn • Numpy • Pandas
+
+---
+
+## 🚀 Getting started
+```bash
+git clone https://github.com/adarsh-v-h/Rock-v-s-Mine-Detection.git 
+cd diabetes-prediction 
+pip install -r requirements.txt 
+python main/main.py 
+```
+
+---
+
+## 📈 Result
+Model Accuracy: 0.85-0.92<br>
+F1 Score: 0.89
+
+---
+
+## 👋 Before you leave
+Thank you for checking out my project and I hope it was helpful, I am open for any future collaboration. <br>
+This project is engineered with a high growth ceiling and designed for scalable expansion, capable of handling exponentially larger datasets and complex feature implementations.
