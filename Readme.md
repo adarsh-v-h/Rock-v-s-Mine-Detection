@@ -36,4 +36,4 @@ F1 Score: 0.89
 
 ## 👋 Before you leave
 Thank you for checking out my project and I hope it was helpful, I am open for any future collaboration. <br>
-This project is engineered with a high growth ceiling and designed for scalable expansion, capable of handling exponentially larger datasets and complex feature implementations.
+This project is engineered with a high growth ceiling and designed for scalable expansion, capable of handling exponentially larger datasets and complex feature implementations. If we get a better dataset we can make it detect more accurately and maybe even more than just mine or rock.
